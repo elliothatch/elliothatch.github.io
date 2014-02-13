@@ -1,3 +1,8 @@
+domain: elliothatch.github.io
+author: elliot hatch
+email: elliot.hatch@gmail.com
+title: neurotiscism
+
 permalink: /:catagories/:title
 exclude:
 - README.md
