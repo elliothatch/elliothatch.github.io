@@ -1,7 +1,7 @@
 domain: elliothatch.github.io
 author: elliot hatch
 email: elliot.hatch@gmail.com
-title: neurotiscism
+title: neurotischism
 
 permalink: /:catagories/:title
 exclude:
