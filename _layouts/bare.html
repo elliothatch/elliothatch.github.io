@@ -1,0 +1,33 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+    {% endif %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet"
+      media="screen"
+      href=
+        {% if page.theme %}
+          "{{ site.url }}/_stylesheets/{{ page.theme }}.css"
+        {% else %}
+          "{{ site.url }}/_stylesheets/default.css"
+        {% endif %}
+      type="text/css" />
+
+    {% include analytics.html %}
+  </head>
+  <body>
+	{% include header.html %}
+	
+	{{ content }}
+	
+	{% include footer.html %}
+  </body>
+</html>

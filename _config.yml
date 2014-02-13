@@ -1,0 +1,6 @@
+permalink: /:catagories/:title
+exclude:
+- README.md
+
+include:
+- _stylesheets
