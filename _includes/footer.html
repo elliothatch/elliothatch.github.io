@@ -1,5 +1,9 @@
 <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+      	<ul id="footer_links">
+          <li><p>{{ site.author }}</p></li>
+          <li><a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></li>
+          <li><a href="http://twitter.com/{{ site.twitter }}" target="_blank">@{{ site.twitter }}</a></li>
+    	</ul>
+       </footer>
 </div>
