@@ -1,15 +1,10 @@
 ---
-layout: bare
+layout: default
 title: games
 description: my games
 ---
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="games" class="anchor" href="#games"><span class="octicon octicon-link"></span></a>games</h1>
-
-<p><a href="games/cellphone/cellphone.html">cellphone</a></p>
-      </section>
-    </div>
+{% for post in site.categories['games'] %}
+	<a href="{{ post.url }}">{{ post.title }}</a><br>
+{% endfor %}
+<!--<p><a href="{{ site.url }}/games/cellphone.html">cellphone</a></p>-->
