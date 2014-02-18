@@ -5,6 +5,7 @@ platforms:
  - platform: flash
    platformtype: browser
    url: /games_data/a-ball-at-the-mall/a-ball-at-the-mall.html
-sourceurl: /games_data/a-ball-at-the-mall/a-ball-at-the-mall.zip
+sourceurl: https://github.com/Fresh4Less/ABallAtTheMall
 ---
-<p>collaboration with samuel davidson<br>audio by micah johnston</p>
+collaboration with samuel davidson  
+audio by micah johnston
