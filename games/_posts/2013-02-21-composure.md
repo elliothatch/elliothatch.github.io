@@ -5,4 +5,6 @@ platforms:
  - platform: flash
    platformtype: browser
    url: /games_data/composure/composure.html
+sourceurl: /games_data/composure/composure.zip
+sourceplatform: flashdevelop+flixel
 ---

@@ -10,6 +10,6 @@ layout: default
   {% endif %}</a><br>
 {% endfor %}
 </p>
-{% if page.sourceurl %}<a href="{% if page.sourceurl contains 'games_data' %}{{ site.url }}{% endif %}{{ page.sourceurl }}">{% if page.sourceurl contains 'github' %}view source (github){% else %}download source{% endif %}</a>{% endif %}
+{% include viewsource.html %}
 
 {{ content }}
