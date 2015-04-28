@@ -1,1 +1,0 @@
-{% if page.sourceurl %}<a href="{% if page.sourceurl | first == '/' %}{{ site.url }}{% endif %}{{ page.sourceurl }}">{% if page.sourceurl contains 'github' %}view source on github{% else %}download source{% endif %}{% if page.sourceplatform %} ({{ page.sourceplatform }}){% endif %}</a>{% endif %}
